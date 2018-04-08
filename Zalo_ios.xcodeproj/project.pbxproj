@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802F4C3BCAB188B668F1EF34 /* Pods_Zalo_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D157815A6D4FB0EA7EED1249 /* Pods_Zalo_ios.framework */; };
 		8E33C957207A11BB003D3DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33C956207A11BB003D3DD4 /* AppDelegate.swift */; };
 		8E33C959207A11BB003D3DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33C958207A11BB003D3DD4 /* ViewController.swift */; };
 		8E33C95C207A11BB003D3DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E33C95A207A11BB003D3DD4 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		8E33C961207A11BB003D3DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E33C95F207A11BB003D3DD4 /* LaunchScreen.storyboard */; };
 		8E33C96C207A11BB003D3DD4 /* Zalo_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33C96B207A11BB003D3DD4 /* Zalo_iosTests.swift */; };
 		8E33C977207A11BB003D3DD4 /* Zalo_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33C976207A11BB003D3DD4 /* Zalo_iosUITests.swift */; };
+		8EEAD450207A1456009E9425 /* SocketCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAD44F207A1456009E9425 /* SocketCore.swift */; };
+		BBD5BEAD48B5438DA3784A63 /* Pods_Zalo_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680979C4653942244CBEEFE2 /* Pods_Zalo_iosUITests.framework */; };
+		E2B50ECF6F2BA8D5AA56ED65 /* Pods_Zalo_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E237EB701A78AD731B8696 /* Pods_Zalo_iosTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AD62C1F2E34A21682EA6678 /* Pods-Zalo_iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_iosUITests/Pods-Zalo_iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		26C36499E4AFF167D284DE15 /* Pods-Zalo_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_ios/Pods-Zalo_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		35B07ECA57CFA23779DC4013 /* Pods-Zalo_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_iosTests/Pods-Zalo_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		680979C4653942244CBEEFE2 /* Pods_Zalo_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zalo_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E33C953207A11BB003D3DD4 /* Zalo_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zalo_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E33C956207A11BB003D3DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E33C958207A11BB003D3DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		8E33C972207A11BB003D3DD4 /* Zalo_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zalo_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E33C976207A11BB003D3DD4 /* Zalo_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zalo_iosUITests.swift; sourceTree = "<group>"; };
 		8E33C978207A11BB003D3DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EEAD44F207A1456009E9425 /* SocketCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketCore.swift; sourceTree = "<group>"; };
+		9DAC385069F1D3DF2F94AA19 /* Pods-Zalo_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_iosUITests/Pods-Zalo_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE50F5FB6AFFB517693EFFB4 /* Pods-Zalo_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_ios/Pods-Zalo_ios.release.xcconfig"; sourceTree = "<group>"; };
+		D157815A6D4FB0EA7EED1249 /* Pods_Zalo_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zalo_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39D09636AFD103448BBE58A /* Pods-Zalo_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_iosTests/Pods-Zalo_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5E237EB701A78AD731B8696 /* Pods_Zalo_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zalo_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802F4C3BCAB188B668F1EF34 /* Pods_Zalo_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B50ECF6F2BA8D5AA56ED65 /* Pods_Zalo_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD5BEAD48B5438DA3784A63 /* Pods_Zalo_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78FCCC030251C83813873F51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C36499E4AFF167D284DE15 /* Pods-Zalo_ios.debug.xcconfig */,
+				BE50F5FB6AFFB517693EFFB4 /* Pods-Zalo_ios.release.xcconfig */,
+				D39D09636AFD103448BBE58A /* Pods-Zalo_iosTests.debug.xcconfig */,
+				35B07ECA57CFA23779DC4013 /* Pods-Zalo_iosTests.release.xcconfig */,
+				1AD62C1F2E34A21682EA6678 /* Pods-Zalo_iosUITests.debug.xcconfig */,
+				9DAC385069F1D3DF2F94AA19 /* Pods-Zalo_iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8E33C94A207A11BB003D3DD4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				8E33C96A207A11BB003D3DD4 /* Zalo_iosTests */,
 				8E33C975207A11BB003D3DD4 /* Zalo_iosUITests */,
 				8E33C954207A11BB003D3DD4 /* Products */,
+				78FCCC030251C83813873F51 /* Pods */,
+				EAAE39DE158732ABF242E7D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +129,7 @@
 		8E33C955207A11BB003D3DD4 /* Zalo_ios */ = {
 			isa = PBXGroup;
 			children = (
+				8EEAD44E207A143A009E9425 /* SocketCore */,
 				8E33C956207A11BB003D3DD4 /* AppDelegate.swift */,
 				8E33C958207A11BB003D3DD4 /* ViewController.swift */,
 				8E33C95A207A11BB003D3DD4 /* Main.storyboard */,
@@ -125,6 +158,24 @@
 			path = Zalo_iosUITests;
 			sourceTree = "<group>";
 		};
+		8EEAD44E207A143A009E9425 /* SocketCore */ = {
+			isa = PBXGroup;
+			children = (
+				8EEAD44F207A1456009E9425 /* SocketCore.swift */,
+			);
+			path = SocketCore;
+			sourceTree = "<group>";
+		};
+		EAAE39DE158732ABF242E7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D157815A6D4FB0EA7EED1249 /* Pods_Zalo_ios.framework */,
+				F5E237EB701A78AD731B8696 /* Pods_Zalo_iosTests.framework */,
+				680979C4653942244CBEEFE2 /* Pods_Zalo_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E33C97B207A11BB003D3DD4 /* Build configuration list for PBXNativeTarget "Zalo_ios" */;
 			buildPhases = (
+				B94449ACB4E997C0CA904D6D /* [CP] Check Pods Manifest.lock */,
 				8E33C94F207A11BB003D3DD4 /* Sources */,
 				8E33C950207A11BB003D3DD4 /* Frameworks */,
 				8E33C951207A11BB003D3DD4 /* Resources */,
+				98AF7D977A49179E9BD2AA56 /* [CP] Embed Pods Frameworks */,
+				69262E15CA6B2048580D5C08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E33C97E207A11BB003D3DD4 /* Build configuration list for PBXNativeTarget "Zalo_iosTests" */;
 			buildPhases = (
+				E16AAC72C9D8D678DBB034FF /* [CP] Check Pods Manifest.lock */,
 				8E33C963207A11BB003D3DD4 /* Sources */,
 				8E33C964207A11BB003D3DD4 /* Frameworks */,
 				8E33C965207A11BB003D3DD4 /* Resources */,
+				E09AD17F6257054F5520DAFA /* [CP] Embed Pods Frameworks */,
+				6B4D49CB60BBB462C2D2B940 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E33C981207A11BB003D3DD4 /* Build configuration list for PBXNativeTarget "Zalo_iosUITests" */;
 			buildPhases = (
+				D6FDA740FFC3284E01186A97 /* [CP] Check Pods Manifest.lock */,
 				8E33C96E207A11BB003D3DD4 /* Sources */,
 				8E33C96F207A11BB003D3DD4 /* Frameworks */,
 				8E33C970207A11BB003D3DD4 /* Resources */,
+				57108CEFAE2B2163801C991C /* [CP] Embed Pods Frameworks */,
+				065177B47AC38E9C52FB721B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +314,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		065177B47AC38E9C52FB721B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zalo_iosUITests/Pods-Zalo_iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57108CEFAE2B2163801C991C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zalo_iosUITests/Pods-Zalo_iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69262E15CA6B2048580D5C08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zalo_ios/Pods-Zalo_ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4D49CB60BBB462C2D2B940 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zalo_iosTests/Pods-Zalo_iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98AF7D977A49179E9BD2AA56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Zalo_ios/Pods-Zalo_ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zalo_ios/Pods-Zalo_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94449ACB4E997C0CA904D6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zalo_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FDA740FFC3284E01186A97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zalo_iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09AD17F6257054F5520DAFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zalo_iosTests/Pods-Zalo_iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E16AAC72C9D8D678DBB034FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zalo_iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E33C94F207A11BB003D3DD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8E33C959207A11BB003D3DD4 /* ViewController.swift in Sources */,
+				8EEAD450207A1456009E9425 /* SocketCore.swift in Sources */,
 				8E33C957207A11BB003D3DD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +637,7 @@
 		};
 		8E33C97C207A11BB003D3DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26C36499E4AFF167D284DE15 /* Pods-Zalo_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +652,7 @@
 		};
 		8E33C97D207A11BB003D3DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE50F5FB6AFFB517693EFFB4 /* Pods-Zalo_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +667,7 @@
 		};
 		8E33C97F207A11BB003D3DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39D09636AFD103448BBE58A /* Pods-Zalo_iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +684,7 @@
 		};
 		8E33C980207A11BB003D3DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B07ECA57CFA23779DC4013 /* Pods-Zalo_iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +701,7 @@
 		};
 		8E33C982207A11BB003D3DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD62C1F2E34A21682EA6678 /* Pods-Zalo_iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +717,7 @@
 		};
 		8E33C983207A11BB003D3DD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAC385069F1D3DF2F94AA19 /* Pods-Zalo_iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
