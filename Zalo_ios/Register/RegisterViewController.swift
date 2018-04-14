@@ -9,13 +9,13 @@
 import UIKit
 
 protocol RegisterView {
-    
+
     func onRegisterSuccess(account: Account)
     func onRegisterFail(err: String)
 }
 
 class RegisterViewController: UIViewController, RegisterView {
-    
+
     let registerEmbedSegue = "RegisterEmbedSegue"
     var presenter: RegsiterPresenter?
     var registerTable: RegisterTableViewController?
@@ -27,21 +27,21 @@ class RegisterViewController: UIViewController, RegisterView {
     }
 
     func onRegisterSuccess(account: Account) {
-        
+
     }
-    
+
     func onRegisterFail(err: String) {
-        
+
     }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == registerEmbedSegue {
             registerTable = segue.destination as? RegisterTableViewController
         }
     }
-    
+
     func setUpRegister() {
         presenter = RegisterPresenterImpl(view: self)
     }
-    
+
 }

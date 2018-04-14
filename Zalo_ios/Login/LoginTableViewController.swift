@@ -12,7 +12,7 @@ class LoginTableViewController: UITableViewController {
 
     @IBOutlet weak var tfUserName: HoshiTextField!
     @IBOutlet weak var tfPassword: HoshiTextField!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -27,5 +27,5 @@ class LoginTableViewController: UITableViewController {
         }
         return nil
     }
-    
+
 }

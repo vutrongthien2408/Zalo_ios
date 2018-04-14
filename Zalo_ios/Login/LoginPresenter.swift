@@ -15,11 +15,11 @@ protocol LoginPresenter {
 class LoginPresenterImpl: LoginPresenter {
     var loginView: LoginView?
     var accounts = Array<Account>()
-    
+
     init(view: LoginView) {
         loginView = view
     }
-    
+
     func checkLogin(username: String, password: String) -> Bool {
         for account in accounts {
             if let name = account.username,
@@ -32,4 +32,5 @@ class LoginPresenterImpl: LoginPresenter {
         loginView?.onLoginFail(err: "Login fail")
         return false
     }
+
 }

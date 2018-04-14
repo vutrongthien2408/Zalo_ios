@@ -24,25 +24,25 @@ class LoginViewController: UIViewController, LoginView {
         setUpLogin()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
+
     func setUpLogin() {
         presenter = LoginPresenterImpl(view: self)
     }
-    
+
     func onLoginSuccess(account: Account) {
 //        change screen
     }
-    
+
     func onLoginFail(err: String) {
 //        change screen
     }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == loginEmbedSegue {
             loginTableView = segue.destination as? LoginTableViewController
         }
     }
-    
+
     @IBAction func LoginButtonTap(_ sender: Any) {
         let account = loginTableView?.getLoginData()
         guard let username = account?.username, let password = account?.password else {
@@ -50,5 +50,5 @@ class LoginViewController: UIViewController, LoginView {
         }
         presenter?.checkLogin(username: username, password: password)
     }
-    
+
 }

@@ -13,7 +13,7 @@ class RegisterTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+
     func registerAccount() -> Account? {
         return nil
     }
