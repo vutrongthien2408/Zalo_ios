@@ -9,9 +9,14 @@
 import UIKit
 import SocketIO
 
+protocol LoginView {
+    func onLoginSuccess(account: Account)
+    func onLoginFail(err: String)
+}
+
 class LoginViewController: UIViewController, LoginView {
     let loginEmbedSegue = "LoginEmbedSegue"
-    var loginTableViewController: LoginTableViewController?
+    var loginTableView: LoginTableViewController?
     var presenter: LoginPresenter?
 
     override func viewDidLoad() {
@@ -34,12 +39,12 @@ class LoginViewController: UIViewController, LoginView {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == loginEmbedSegue {
-            loginTableViewController = segue.destination as? LoginTableViewController
+            loginTableView = segue.destination as? LoginTableViewController
         }
     }
     
     @IBAction func LoginButtonTap(_ sender: Any) {
-        let account = loginTableViewController?.getLoginData()
+        let account = loginTableView?.getLoginData()
         guard let username = account?.username, let password = account?.password else {
             return
         }

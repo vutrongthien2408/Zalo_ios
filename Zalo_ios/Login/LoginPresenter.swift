@@ -12,12 +12,6 @@ protocol LoginPresenter {
     func checkLogin(username: String, password: String) -> Bool
 }
 
-protocol LoginView {
-    func onLoginSuccess(account: Account)
-    func onLoginFail(err: String)
-}
-
-
 class LoginPresenterImpl: LoginPresenter {
     var loginView: LoginView?
     var accounts = Array<Account>()
