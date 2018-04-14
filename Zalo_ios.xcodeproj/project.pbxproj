@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		802F4C3BCAB188B668F1EF34 /* Pods_Zalo_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D157815A6D4FB0EA7EED1249 /* Pods_Zalo_ios.framework */; };
 		8E33C957207A11BB003D3DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33C956207A11BB003D3DD4 /* AppDelegate.swift */; };
-		8E33C959207A11BB003D3DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33C958207A11BB003D3DD4 /* ViewController.swift */; };
+		8E33C959207A11BB003D3DD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33C958207A11BB003D3DD4 /* LoginViewController.swift */; };
 		8E33C95C207A11BB003D3DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E33C95A207A11BB003D3DD4 /* Main.storyboard */; };
 		8E33C95E207A11BB003D3DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E33C95D207A11BB003D3DD4 /* Assets.xcassets */; };
 		8E33C961207A11BB003D3DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E33C95F207A11BB003D3DD4 /* LaunchScreen.storyboard */; };
@@ -18,6 +18,8 @@
 		8E4A0554207A1B8B00BAC362 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A0551207A1B8A00BAC362 /* TextFieldEffects.swift */; };
 		8E4A0555207A1B8B00BAC362 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A0553207A1B8B00BAC362 /* HoshiTextField.swift */; };
 		8E4A0557207A307900BAC362 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A0556207A307900BAC362 /* LoginTableViewController.swift */; };
+		8E7CB9BE2080E63E00288742 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB9BD2080E63E00288742 /* LoginProtocol.swift */; };
+		8E7CB9C12080E6D800288742 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB9C02080E6D800288742 /* Account.swift */; };
 		8EEAD450207A1456009E9425 /* SocketCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAD44F207A1456009E9425 /* SocketCore.swift */; };
 		BBD5BEAD48B5438DA3784A63 /* Pods_Zalo_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680979C4653942244CBEEFE2 /* Pods_Zalo_iosUITests.framework */; };
 		E2B50ECF6F2BA8D5AA56ED65 /* Pods_Zalo_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E237EB701A78AD731B8696 /* Pods_Zalo_iosTests.framework */; };
@@ -47,7 +49,7 @@
 		680979C4653942244CBEEFE2 /* Pods_Zalo_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zalo_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E33C953207A11BB003D3DD4 /* Zalo_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zalo_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E33C956207A11BB003D3DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8E33C958207A11BB003D3DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E33C958207A11BB003D3DD4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8E33C95B207A11BB003D3DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E33C95D207A11BB003D3DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E33C960207A11BB003D3DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +64,8 @@
 		8E4A0552207A1B8B00BAC362 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
 		8E4A0553207A1B8B00BAC362 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
 		8E4A0556207A307900BAC362 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		8E7CB9BD2080E63E00288742 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		8E7CB9C02080E6D800288742 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		8EEAD44F207A1456009E9425 /* SocketCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketCore.swift; sourceTree = "<group>"; };
 		9DAC385069F1D3DF2F94AA19 /* Pods-Zalo_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_iosUITests/Pods-Zalo_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BE50F5FB6AFFB517693EFFB4 /* Pods-Zalo_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_ios/Pods-Zalo_ios.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,15 +140,15 @@
 		8E33C955207A11BB003D3DD4 /* Zalo_ios */ = {
 			isa = PBXGroup;
 			children = (
+				8E7CB9BF2080E6B300288742 /* Model */,
+				8E7CB9BC2080E60C00288742 /* Login */,
 				8E4A0550207A1B5E00BAC362 /* TextFieldEffect */,
 				8EEAD44E207A143A009E9425 /* SocketCore */,
 				8E33C956207A11BB003D3DD4 /* AppDelegate.swift */,
-				8E33C958207A11BB003D3DD4 /* ViewController.swift */,
 				8E33C95A207A11BB003D3DD4 /* Main.storyboard */,
 				8E33C95D207A11BB003D3DD4 /* Assets.xcassets */,
 				8E33C95F207A11BB003D3DD4 /* LaunchScreen.storyboard */,
 				8E33C962207A11BB003D3DD4 /* Info.plist */,
-				8E4A0556207A307900BAC362 /* LoginTableViewController.swift */,
 			);
 			path = Zalo_ios;
 			sourceTree = "<group>";
@@ -175,6 +179,24 @@
 				8E4A0551207A1B8A00BAC362 /* TextFieldEffects.swift */,
 			);
 			path = TextFieldEffect;
+			sourceTree = "<group>";
+		};
+		8E7CB9BC2080E60C00288742 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8E4A0556207A307900BAC362 /* LoginTableViewController.swift */,
+				8E33C958207A11BB003D3DD4 /* LoginViewController.swift */,
+				8E7CB9BD2080E63E00288742 /* LoginProtocol.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8E7CB9BF2080E6B300288742 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E7CB9C02080E6D800288742 /* Account.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		8EEAD44E207A143A009E9425 /* SocketCore */ = {
@@ -490,10 +512,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E33C959207A11BB003D3DD4 /* ViewController.swift in Sources */,
+				8E33C959207A11BB003D3DD4 /* LoginViewController.swift in Sources */,
 				8EEAD450207A1456009E9425 /* SocketCore.swift in Sources */,
 				8E4A0554207A1B8B00BAC362 /* TextFieldEffects.swift in Sources */,
+				8E7CB9BE2080E63E00288742 /* LoginProtocol.swift in Sources */,
 				8E33C957207A11BB003D3DD4 /* AppDelegate.swift in Sources */,
+				8E7CB9C12080E6D800288742 /* Account.swift in Sources */,
 				8E4A0555207A1B8B00BAC362 /* HoshiTextField.swift in Sources */,
 				8E4A0557207A307900BAC362 /* LoginTableViewController.swift in Sources */,
 			);
