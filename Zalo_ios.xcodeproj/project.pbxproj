@@ -18,8 +18,11 @@
 		8E4A0554207A1B8B00BAC362 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A0551207A1B8A00BAC362 /* TextFieldEffects.swift */; };
 		8E4A0555207A1B8B00BAC362 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A0553207A1B8B00BAC362 /* HoshiTextField.swift */; };
 		8E4A0557207A307900BAC362 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A0556207A307900BAC362 /* LoginTableViewController.swift */; };
-		8E7CB9BE2080E63E00288742 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB9BD2080E63E00288742 /* LoginProtocol.swift */; };
+		8E7CB9BE2080E63E00288742 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB9BD2080E63E00288742 /* LoginPresenter.swift */; };
 		8E7CB9C12080E6D800288742 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CB9C02080E6D800288742 /* Account.swift */; };
+		8EC2DC662081CD6900680122 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC2DC652081CD6900680122 /* RegisterPresenter.swift */; };
+		8EC2DC682081D10700680122 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC2DC672081D10700680122 /* RegisterViewController.swift */; };
+		8EC2DC6A2081D28D00680122 /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC2DC692081D28D00680122 /* RegisterTableViewController.swift */; };
 		8EEAD450207A1456009E9425 /* SocketCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEAD44F207A1456009E9425 /* SocketCore.swift */; };
 		BBD5BEAD48B5438DA3784A63 /* Pods_Zalo_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680979C4653942244CBEEFE2 /* Pods_Zalo_iosUITests.framework */; };
 		E2B50ECF6F2BA8D5AA56ED65 /* Pods_Zalo_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E237EB701A78AD731B8696 /* Pods_Zalo_iosTests.framework */; };
@@ -64,8 +67,11 @@
 		8E4A0552207A1B8B00BAC362 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
 		8E4A0553207A1B8B00BAC362 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
 		8E4A0556207A307900BAC362 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
-		8E7CB9BD2080E63E00288742 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		8E7CB9BD2080E63E00288742 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		8E7CB9C02080E6D800288742 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		8EC2DC652081CD6900680122 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		8EC2DC672081D10700680122 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8EC2DC692081D28D00680122 /* RegisterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
 		8EEAD44F207A1456009E9425 /* SocketCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketCore.swift; sourceTree = "<group>"; };
 		9DAC385069F1D3DF2F94AA19 /* Pods-Zalo_iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_iosUITests/Pods-Zalo_iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BE50F5FB6AFFB517693EFFB4 /* Pods-Zalo_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zalo_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zalo_ios/Pods-Zalo_ios.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +146,7 @@
 		8E33C955207A11BB003D3DD4 /* Zalo_ios */ = {
 			isa = PBXGroup;
 			children = (
+				8EC2DC642081CD2700680122 /* Register */,
 				8E7CB9BF2080E6B300288742 /* Model */,
 				8E7CB9BC2080E60C00288742 /* Login */,
 				8E4A0550207A1B5E00BAC362 /* TextFieldEffect */,
@@ -186,7 +193,7 @@
 			children = (
 				8E4A0556207A307900BAC362 /* LoginTableViewController.swift */,
 				8E33C958207A11BB003D3DD4 /* LoginViewController.swift */,
-				8E7CB9BD2080E63E00288742 /* LoginProtocol.swift */,
+				8E7CB9BD2080E63E00288742 /* LoginPresenter.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -197,6 +204,16 @@
 				8E7CB9C02080E6D800288742 /* Account.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8EC2DC642081CD2700680122 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				8EC2DC652081CD6900680122 /* RegisterPresenter.swift */,
+				8EC2DC672081D10700680122 /* RegisterViewController.swift */,
+				8EC2DC692081D28D00680122 /* RegisterTableViewController.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 		8EEAD44E207A143A009E9425 /* SocketCore */ = {
@@ -513,13 +530,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E33C959207A11BB003D3DD4 /* LoginViewController.swift in Sources */,
+				8EC2DC682081D10700680122 /* RegisterViewController.swift in Sources */,
 				8EEAD450207A1456009E9425 /* SocketCore.swift in Sources */,
 				8E4A0554207A1B8B00BAC362 /* TextFieldEffects.swift in Sources */,
-				8E7CB9BE2080E63E00288742 /* LoginProtocol.swift in Sources */,
+				8E7CB9BE2080E63E00288742 /* LoginPresenter.swift in Sources */,
 				8E33C957207A11BB003D3DD4 /* AppDelegate.swift in Sources */,
 				8E7CB9C12080E6D800288742 /* Account.swift in Sources */,
+				8EC2DC662081CD6900680122 /* RegisterPresenter.swift in Sources */,
 				8E4A0555207A1B8B00BAC362 /* HoshiTextField.swift in Sources */,
 				8E4A0557207A307900BAC362 /* LoginTableViewController.swift in Sources */,
+				8EC2DC6A2081D28D00680122 /* RegisterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
