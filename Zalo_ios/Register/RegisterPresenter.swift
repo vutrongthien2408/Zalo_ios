@@ -13,14 +13,14 @@ protocol RegsiterPresenter {
 }
 
 class  RegisterPresenterImpl: RegsiterPresenter {
-    
+
     var view: RegisterView?
     let accounts = Array<Account>()
-    
+
     init(view: RegisterView) {
         self.view = view
     }
-    
+
     func checkRegister(account: Account) -> Bool {
         for acc in accounts {
             if acc.username == account.username {
@@ -31,4 +31,5 @@ class  RegisterPresenterImpl: RegsiterPresenter {
         view?.onRegisterFail(err: "Register fail")
         return false
     }
+
 }

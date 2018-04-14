@@ -16,6 +16,5 @@ class Account {
 
     init() {
     }
-    
-    
+
 }
